@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolatrice</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+</head>
+
+<body>
+    
+    <div id="calcolatrice1" >
+        
+           
+        
+        <div id="calcolatrice">
+           <input type="text"  id="risultato" readonly="readonly">  
+            <div id="operazioni">
+                    
+                <button type="button" id="c" onclick="canc()" class="tasti">C</button>
+                    
+                    
+                <button type="button" id="+" onclick="piu()" class="tasti">+</button>
+                    
+                    
+                <button type="button" id="-" onclick="meno()" class="tasti">-</button>
+                
+                
+                <button type="button" id="*" onclick="x()" class="tasti">*</button>
+                
+                <button type="button" id="/" onclick="diviso()" class="tasti">/</button>
+                
+                <button type="button" id="=" onclick="tot()" class="tasti">=</button>
+                
+            
+            
+                <button type="button" id="uno" onclick="num_uno()" class="tasti" value="1">1</button>
+            
+                <button type="button" id="due" onclick="num_due()" class="tasti" value="2">2</button>
+                
+                <button type="button" id="tre" onclick="num_tre()" class="tasti" value="3">3</button>
+                
+                <button type="button" id="quattro" onclick="num_quattro()" class="tasti" value="4">4</button>
+                
+                <button type="button" id="cinque" onclick="num_cinque()" class="tasti">5</button>
+                
+                <button type="button" id="sei" onclick="num_sei()" class="tasti">6</button>
+                    
+            
+                <button type="button" id="sette" onclick="num_sette()" class="tasti">7</button>
+            
+                <button type="button" id="otto" onclick="num_otto()" class="tasti">8</button>
+                
+                <button type="button" id="nove" onclick="num_nove()" class="tasti">9</button>
+                
+                <button type="button" id="zero" onclick="num_zero()" class="tasti" value="0">0</button>
+                    
+                </div>
+
+            
+
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
