@@ -14,7 +14,7 @@
             radial-gradient(60% 50% ellipse at center bottom, #261226 0%, #100a1c 100%);
     width: 35%;
    
-    box-shadow:  2px 2px 2px 2px ;
+    box-shadow:  1px 1px 1px 1px ;
    
     text-align: center;
     
@@ -107,10 +107,11 @@ button {
    border:solid 0.8px black ;
     font: inherit;
     margin:0 auto;
-    
+    text-align: center;
     transition: all 0.5s;
     animation-name:zoom;
     animation-timing-function:3s ;
+    padding: 2px;
 }
 
 
@@ -218,7 +219,7 @@ button {
     }
 }
 
-@media (min-width: 420px) {
+/* @media (min-width: 420px) {
     .calculator {
         width: 12em;
     }
@@ -230,4 +231,4 @@ button {
     button {
         margin: 0.5em;
     }
-}
+} */

@@ -79,7 +79,7 @@ function tot() {
     console.log(typeof num5)
     if(num5.includes('+')){
         let num8 = num5.split('+') 
-        risultato = +num8[0]+ +num8[1] 
+        risultato = + num8[0]+ +num8[1] 
         console.log(risultato)
     
 
